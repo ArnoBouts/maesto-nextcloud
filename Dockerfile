@@ -1,5 +1,5 @@
 FROM nextcloud
-# FROM_DIGEST sha256:daa116324e1b974d713851c8aa817933d259c484815b7857d8c9c412c2aa4595
+# FROM_DIGEST sha256:fbc767350200a5e0f5a5ee0a804c2c332f3ebc27a5d37ae2cf81bddd7249cc04
 
 COPY wait-for-mysql.php /wait-for-mysql.php
 
