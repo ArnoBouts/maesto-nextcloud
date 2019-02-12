@@ -1,5 +1,5 @@
 FROM nextcloud
-# FROM_DIGEST sha256:c241b03830beb2092050b660c8f4eee01cd1b4ecfe53827451c85423dd3c4651
+# FROM_DIGEST sha256:5828bf9dd39ac5da51b680dcbefd8a8f3dd5007c4a71e80bcbb4117f21dc0937
 
 RUN apt-get update && apt-get install -y \
   supervisor \
